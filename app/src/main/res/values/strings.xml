@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="porcentajes">%</string>
+    <string name="CE">CE</string>
+    <string name="C">C</string>
+    <string name="borrar">⌫</string>
+    <string name="cuadrado">xⁿ</string>
+    <string name="raiz">²√x</string>
+    <string name="dividir">÷</string>
+    <string name="boton7">7</string>
+    <string name="boton8">8</string>
+    <string name="boton9">9</string>
+    <string name="multiplicar">×</string>
+    <string name="boton4">4</string>
+    <string name="boton5">5</string>
+    <string name="boton6">6</string>
+    <string name="restar">−</string>
+    <string name="boton1">1</string>
+    <string name="boton2">2</string>
+    <string name="boton3">3</string>
+    <string name="sumar">+</string>
+    <string name="signo">+/−</string>
+    <string name="boton0">0</string>
+    <string name="boton0.0">0.0</string>
+    <string name="decimal">,</string>
+    <string name="igual">=</string>
+    <string name="vacio">.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fondo">#000000</color>
+    <color name="botonNumeros">#2a2a2c</color>
+    <color name="botonNumerosFocused">#222224</color>  <!-- Focused para números -->
+    <color name="botonOperadores">#ff9f0a</color>
+    <color name="botonOperadoresFocused">#cc8f08</color> <!-- Focused para operadores -->
+    <color name="restoBotones">#5c5c5e</color>
+    <color name="restoBotonesFocused">#4c4c4e</color> <!-- Focused para resto -->
+</resources>

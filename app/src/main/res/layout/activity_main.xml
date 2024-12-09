@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:gravity="end|center_vertical"
+        android:text="@string/boton0.0"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/cuadrilla"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:columnCount="4"
+        android:rowCount="6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoResultado">
+
+        <Button
+            android:id="@+id/botonVacio"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/fondo"
+            android:textColor="@color/fondo"
+            android:padding="8dp"
+            android:text="@string/vacio"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonLimpiar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/C"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonCE"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/CE"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonBorrar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/borrar"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonPorcentaje"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:padding="8dp"
+            android:text="@string/porcentajes"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonCuadrado"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/cuadrado"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonRaiz"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/raiz"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonDividir"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonOperadores"
+            android:text="@string/dividir"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton7"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton8"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton9"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonMultiplicar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonOperadores"
+            android:text="@string/multiplicar"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton4"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton5"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton6"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonRestar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonOperadores"
+            android:text="@string/restar"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton1"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton2"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton3"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonSumar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonOperadores"
+            android:text="@string/sumar"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonSigno"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/signo"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/boton0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonNumeros"
+            android:text="@string/boton0"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonDecimal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/restoBotones"
+            android:text="@string/decimal"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+
+        <Button
+            android:id="@+id/botonIgual"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:backgroundTint="@color/botonOperadores"
+            android:text="@string/igual"
+            android:textColor="@android:color/white"
+            android:textSize="32sp" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
